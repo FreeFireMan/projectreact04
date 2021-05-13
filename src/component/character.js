@@ -1,9 +1,9 @@
 
-export default function Character (item) {
-       console.log(item);
+export default function Character ({item}) {
         return(
         <div>
-            {item.name}
+            {item.id}
+            {item.name && item.name.first}
         </div>
 );
 }
