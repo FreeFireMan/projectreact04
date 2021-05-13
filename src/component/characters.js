@@ -1,5 +1,4 @@
-import {useEffect} from "react";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import Character from "./character";
 
 export default function Characters(props) {

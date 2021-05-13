@@ -1,8 +1,7 @@
-export default function Inventory (item){
-    console.log(item);
-        return(
+export default function Inventory(item) {
+    return (
         <div>
             {item.title}
         </div>
-);
+    );
 }
